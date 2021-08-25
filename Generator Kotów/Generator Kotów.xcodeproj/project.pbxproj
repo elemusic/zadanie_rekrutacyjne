@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB023F1A26D3F8E300182C81 /* CatArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB023F1926D3F8E300182C81 /* CatArray.swift */; };
+		CB3C0C2D26CEF51F00DDB266 /* CatBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C0C2C26CEF51F00DDB266 /* CatBrain.swift */; };
+		CB75DA6E26CD04A000C47A0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB75DA6D26CD04A000C47A0A /* AppDelegate.swift */; };
+		CB75DA7026CD04A000C47A0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB75DA6F26CD04A000C47A0A /* SceneDelegate.swift */; };
+		CB75DA7226CD04A000C47A0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB75DA7126CD04A000C47A0A /* ViewController.swift */; };
+		CB75DA7526CD04A000C47A0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB75DA7326CD04A000C47A0A /* Main.storyboard */; };
+		CB75DA7726CD04A200C47A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB75DA7626CD04A200C47A0A /* Assets.xcassets */; };
+		CB75DA7A26CD04A200C47A0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB75DA7826CD04A200C47A0A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		56D1AA2815CE1705DE964B57 /* Pods-Generator Kotów.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Generator Kotów.release.xcconfig"; path = "Target Support Files/Pods-Generator Kotów/Pods-Generator Kotów.release.xcconfig"; sourceTree = "<group>"; };
+		7C9D5C96670738F0F2B402B0 /* Pods_Generator_Koto_w.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Generator_Koto_w.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C92511AD35085CD6F2701F12 /* Pods-Generator Kotów.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Generator Kotów.debug.xcconfig"; path = "Target Support Files/Pods-Generator Kotów/Pods-Generator Kotów.debug.xcconfig"; sourceTree = "<group>"; };
+		CB023F1926D3F8E300182C81 /* CatArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatArray.swift; sourceTree = "<group>"; };
+		CB3C0C2C26CEF51F00DDB266 /* CatBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBrain.swift; sourceTree = "<group>"; };
+		CB75DA6A26CD04A000C47A0A /* Generator Kotów.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Generator Kotów.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB75DA6D26CD04A000C47A0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB75DA6F26CD04A000C47A0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CB75DA7126CD04A000C47A0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB75DA7426CD04A000C47A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB75DA7626CD04A200C47A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB75DA7926CD04A200C47A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB75DA7B26CD04A200C47A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		49A75162985051BD0A5C76F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C9D5C96670738F0F2B402B0 /* Pods_Generator_Koto_w.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		584053B20369937E7A4DDF49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C92511AD35085CD6F2701F12 /* Pods-Generator Kotów.debug.xcconfig */,
+				56D1AA2815CE1705DE964B57 /* Pods-Generator Kotów.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB32A35426D25BB900F36545 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB75DA7326CD04A000C47A0A /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CB3F715B26D25A12008CC756 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CB3F715C26D25A6A008CC756 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB3C0C2C26CEF51F00DDB266 /* CatBrain.swift */,
+				CB023F1926D3F8E300182C81 /* CatArray.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CB75DA6126CD04A000C47A0A = {
+			isa = PBXGroup;
+			children = (
+				CB75DA6C26CD04A000C47A0A /* Generator Kotów */,
+				CB75DA6B26CD04A000C47A0A /* Products */,
+				584053B20369937E7A4DDF49 /* Pods */,
+				49A75162985051BD0A5C76F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB75DA6B26CD04A000C47A0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB75DA6A26CD04A000C47A0A /* Generator Kotów.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB75DA6C26CD04A000C47A0A /* Generator Kotów */ = {
+			isa = PBXGroup;
+			children = (
+				CB75DA6D26CD04A000C47A0A /* AppDelegate.swift */,
+				CB75DA7626CD04A200C47A0A /* Assets.xcassets */,
+				CB75DA7826CD04A200C47A0A /* LaunchScreen.storyboard */,
+				CB75DA7B26CD04A200C47A0A /* Info.plist */,
+				CB75DA6F26CD04A000C47A0A /* SceneDelegate.swift */,
+				CB3F715C26D25A6A008CC756 /* Model */,
+				CB32A35426D25BB900F36545 /* View */,
+				CB3F715B26D25A12008CC756 /* Controller */,
+				CB75DA7126CD04A000C47A0A /* ViewController.swift */,
+			);
+			path = "Generator Kotów";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB75DA6926CD04A000C47A0A /* Generator Kotów */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB75DA9426CD04A300C47A0A /* Build configuration list for PBXNativeTarget "Generator Kotów" */;
+			buildPhases = (
+				4FA680F425FAF2A9D0347BE2 /* [CP] Check Pods Manifest.lock */,
+				CB75DA6626CD04A000C47A0A /* Sources */,
+				CB75DA6826CD04A000C47A0A /* Resources */,
+				F929D4BBA436AE467CFB3634 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Generator Kotów";
+			productName = "Generator Kotów";
+			productReference = CB75DA6A26CD04A000C47A0A /* Generator Kotów.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB75DA6226CD04A000C47A0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CB75DA6926CD04A000C47A0A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = CB75DA6526CD04A000C47A0A /* Build configuration list for PBXProject "Generator Kotów" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB75DA6126CD04A000C47A0A;
+			productRefGroup = CB75DA6B26CD04A000C47A0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB75DA6926CD04A000C47A0A /* Generator Kotów */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB75DA6826CD04A000C47A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB75DA7A26CD04A200C47A0A /* LaunchScreen.storyboard in Resources */,
+				CB75DA7726CD04A200C47A0A /* Assets.xcassets in Resources */,
+				CB75DA7526CD04A000C47A0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FA680F425FAF2A9D0347BE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Generator Kotów-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F929D4BBA436AE467CFB3634 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Generator Kotów/Pods-Generator Kotów-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Generator Kotów/Pods-Generator Kotów-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Generator Kotów/Pods-Generator Kotów-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB75DA6626CD04A000C47A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB75DA7226CD04A000C47A0A /* ViewController.swift in Sources */,
+				CB75DA6E26CD04A000C47A0A /* AppDelegate.swift in Sources */,
+				CB3C0C2D26CEF51F00DDB266 /* CatBrain.swift in Sources */,
+				CB75DA7026CD04A000C47A0A /* SceneDelegate.swift in Sources */,
+				CB023F1A26D3F8E300182C81 /* CatArray.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB75DA7326CD04A000C47A0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB75DA7426CD04A000C47A0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB75DA7826CD04A200C47A0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB75DA7926CD04A200C47A0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB75DA9226CD04A300C47A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB75DA9326CD04A300C47A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB75DA9526CD04A300C47A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C92511AD35085CD6F2701F12 /* Pods-Generator Kotów.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CCM5YYL564;
+				INFOPLIST_FILE = "Generator Kotów/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MattDebski.Generator-Koto-w";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB75DA9626CD04A300C47A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56D1AA2815CE1705DE964B57 /* Pods-Generator Kotów.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CCM5YYL564;
+				INFOPLIST_FILE = "Generator Kotów/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MattDebski.Generator-Koto-w";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB75DA6526CD04A000C47A0A /* Build configuration list for PBXProject "Generator Kotów" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB75DA9226CD04A300C47A0A /* Debug */,
+				CB75DA9326CD04A300C47A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB75DA9426CD04A300C47A0A /* Build configuration list for PBXNativeTarget "Generator Kotów" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB75DA9526CD04A300C47A0A /* Debug */,
+				CB75DA9626CD04A300C47A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB75DA6226CD04A000C47A0A /* Project object */;
+}
